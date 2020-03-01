@@ -43,7 +43,7 @@ To-do list:
 
 ## Status
 Project is: In progress
-Update by Craig Sandlin: The first sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the MousePosition.py file. It's function is to display live pixel coordinate data for the mouse. This information is used during the procedure creation to specify where clicking should occur.
+*Update by Craig Sandlin: The first sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the MousePosition.py file. It's function is to display live pixel coordinate data for the mouse. This information is used during the procedure creation to specify where clicking should occur. Next step is to create a save/load procedure functionality. That way the user doesn't need to start from scratch each time, and can have multiple tasks automated!
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
