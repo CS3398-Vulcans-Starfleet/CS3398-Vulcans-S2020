@@ -42,7 +42,8 @@ To-do list:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: In progress
+Update by Craig Sandlin: The first sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the MousePosition.py file. It's function is to display live pixel coordinate data for the mouse. This information is used during the procedure creation to specify where clicking should occur.
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
