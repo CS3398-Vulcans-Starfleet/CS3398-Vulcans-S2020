@@ -47,6 +47,8 @@ Project is: In progress
 
 *Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
 
+*Update by Anthony Connor: My contribution to the first sprint is the ownership of the example.xlsm. through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform. 
+
 ## Inspiration
 Add here credits. Project inspired by..., based on...
 
