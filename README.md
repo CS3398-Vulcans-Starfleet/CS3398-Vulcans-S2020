@@ -50,6 +50,7 @@ Project is: In progress
 *Update by Anthony Connor: My contribution to the first sprint is the ownership of the example.xlsm. through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform.
 
 *Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
+Next Step: I would like to figure out how to implement the rename script in the next feature that would allow the user to delete duplicate files.
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
