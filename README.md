@@ -26,10 +26,55 @@ file:///.file/id=6571367.125785890
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
+need excel, pycharm for code editing./ local environment needs pyautogui and may need pip to install pyautogui on certain machines. demo version is accessible though the example.xlsm
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`example of the interactivity with excel`
+*Sub PythonMousePosition()
+
+Dim objShell As Object
+'''initialize the array as a string'''
+Dim PythonExe, PythonScript, arg, formattedArg As String
+
+Set objShell = VBA.CreateObject("Wscript.Shell")
+
+PythonExe = """C:\Users\craig\AppData\Local\Programs\Python\Python38\python.exe"""
+
+PythonScript = """C:\Users\craig\PycharmProjects\CS3398-Vulcans-S2020\MousePosition.py"""
+
+objShell.Run PythonExe & PythonScript, 6
+
+
+End Sub
+'''initialize the funtion to allow interaction with excel as a gui'''
+'''format to run explicitly thru the file paths on craig's laptop'''
+Sub PythonGUIControl()
+
+Dim objShell As Object
+'''initialize this array as a string'''
+Dim PythonExe, PythonScript, arg, formattedArg As String
+
+Set objShell = VBA.CreateObject("Wscript.Shell")
+
+PythonExe = """C:\Users\craig\AppData\Local\Programs\Python\Python38\python.exe"""
+
+PythonScript = """C:\Users\craig\PycharmProjects\CS3398-Vulcans-S2020\ExcelUI.py"""
+
+'arg = ThisWorkbook.Sheets("Sheet2").Range("A3").Value
+'arg = "Hello World!"
+'formattedArg = """" & """" & """" & arg & """" & """" & """"
+
+'formattedArg = """C:\\Users\\CraigSandlin\\Documents\\CS3398-Vulcans-S2020\example.xlsm"""
+
+objShell.Run PythonExe & PythonScript, 6
+
+
+End Sub
+
+Sub test()
+MsgBox "Hello World"
+*End Sub
 
 ## Features
 List of features ready and TODOs for future development
@@ -47,10 +92,9 @@ Project is: In progress
 
 *Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
 
-*Update by Anthony Connor: My contribution to the first sprint is the ownership of the example.xlsm. through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform.
+*Update by Anthony Connor: My contribution to the first sprint is the ownership of the SE_automation.cls . through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform.  
 
 *Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
-Next Step: I would like to figure out how to implement the rename script in the next feature that would allow the user to delete duplicate files.
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
