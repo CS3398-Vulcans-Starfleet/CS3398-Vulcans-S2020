@@ -55,5 +55,27 @@ for x in range(2, 50):
         pyautogui.hotkey('win', 'up')
     if sheet.range(instrCell).value == "copy":
         pyautogui.hotkey('win', 'c')
+    if sheet.range(instrCell).value == "MoveMouse":
+        param1 = "C" + str(x)
+        XCoordinate = sheet.range(param1).value
+        param2 = "D" + str(x)
+        YCoordinate = sheet.range(param2).value
+        pyautogui.moveTo(XCoordinate, YCoordinate, 2, pyautogui.easeInQuad)
+    if sheet.range(instrCell).value == "DragMouse":
+        param1 = "C" + str(x)
+        XCoordinate = sheet.range(param1).value
+        param2 = "D" + str(x)
+        YCoordinate = sheet.range(param2).value
+        pyautogui.dragTo(XCoordinate, YCoordinate, 2, pyautogui.easeInQuad)
+    if sheet.range(instrCell).value == "VerticalScroll":
+        param1 = "C" + str(x)
+        ScrollAmount = sheet.range(param1).value
+        pyautogui.scroll(ScrollAmount)
+    if sheet.range(instrCell).value == "HorizontalScroll":
+        param1 = "C" + str(x)
+        ScrollAmount = sheet.range(param1).value
+        pyautogui.hscroll(ScrollAmount)
+
+
     wb.save('C:\\Users\\craig\\Documents\\CS3398-Vulcans-S2020\\example.xlsm')
 #wb.save(sys.argv[1])

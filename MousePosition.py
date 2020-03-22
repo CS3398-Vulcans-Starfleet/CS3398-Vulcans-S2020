@@ -11,8 +11,8 @@ print(str(sys.argv[0]))
 try:
     while True:
         x, y = pyautogui.position()
-        sheet.range('H2').value = x
-        sheet.range('I2').value = y
+        sheet.range('L2').value = x
+        sheet.range('M2').value = y
 except KeyboardInterrupt:
     print('\n')
 
