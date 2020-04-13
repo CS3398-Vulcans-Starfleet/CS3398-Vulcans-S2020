@@ -88,7 +88,7 @@ To-do list:
 
 ## Status
 Project is: In progress
-*Update by Craig Sandlin: The first sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the MousePosition.py file. It's function is to display live pixel coordinate data for the mouse. This information is used during the procedure creation to specify where clicking should occur. Next step is to create a save/load procedure functionality. That way the user doesn't need to start from scratch each time, and can have multiple tasks automated!
+*Update by Craig Sandlin: The second sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the ProcedureLoad.py and ProcedureSave.py files. It's function is to load and save procedures related to the keyboard and mouse emulation feature.
 
 *Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
 
