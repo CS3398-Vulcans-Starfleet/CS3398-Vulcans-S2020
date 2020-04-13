@@ -92,7 +92,7 @@ Project is: In progress
 
 *Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
 
-*Update by Anthony Connor: My contribution to the first sprint is the ownership of the SE_automation.cls . through this the automations were implemented and the buttons on the excel UI are incorporated. The next step will be to add more buttons to allow the user different automation task to perform.  
+*Update by Anthony Connor: The second sprint has been completed. Thus far, we completed more base functions of automation tool. My contribution is in the ownership of the wifi_login.py and config.py. Its function is to automate a login into a desired network using mouse/keyboard emulation along with locating images on the scrren.
 
 *Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
 
