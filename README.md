@@ -91,8 +91,6 @@ To-do list:
 Project is: In progress
 *Update by Craig Sandlin: The second sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the ProcedureLoad.py and ProcedureSave.py files. It's function is to load and save procedures related to the keyboard and mouse emulation feature.
 
-*Update by Mason Currie: My contribution is in the ownership ExcelUI.py file in the master branch. Using the libraries "xlwings" and "pyautogui", it's function is to iterate through the excel spreadsheet (from the range given) and perform actions based on the value in the specific cell being read.
-
 *Update by Anthony Connor: The second sprint has been completed. Thus far, we completed more base functions of automation tool. My contribution is in the ownership of the wifi_login.py and config.py. Its function is to automate a login into a desired network using mouse/keyboard emulation along with locating images on the scrren.
 
 *Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
