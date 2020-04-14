@@ -89,7 +89,7 @@ To-do list:
 
 ## Status
 Project is: In progress
-*Update by Craig Sandlin: The second sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the ProcedureLoad.py and ProcedureSave.py files. It's function is to load and save procedures related to the keyboard and mouse emulation feature.
+*Update by Craig Sandlin: The second sprint has been completed. Thus far, we have completed the base functionality of the gui automation tool. My contribution is in ownership of the ProcedureLoad.py and ProcedureSave.py files. It's function is to load and save procedures related to the keyboard and mouse emulation feature.Next step will be to integrate the puzzle pieces from the team into one user interface and to look at refactoring the code.
 
 *Update by Anthony Connor: The second sprint has been completed. Thus far, we completed more base functions of automation tool. My contribution is in the ownership of the wifi_login.py and config.py. Its function is to automate a login into a desired network using mouse/keyboard emulation along with locating images on the scrren.
 
