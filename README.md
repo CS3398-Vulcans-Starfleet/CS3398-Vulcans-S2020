@@ -81,6 +81,7 @@ List of features ready and TODOs for future development
 * Interactivity through excel
 * Mouse Pixel Position Display
 * Clicking and Typing Automation
+* Automated website login
 
 To-do list:
 * Wow improvement to be done 1
@@ -95,6 +96,8 @@ Project is: In progress
 *Update by Anthony Connor: The second sprint has been completed. Thus far, we completed more base functions of automation tool. My contribution is in the ownership of the wifi_login.py and config.py. Its function is to automate a login into a desired network using mouse/keyboard emulation along with locating images on the scrren.
 
 *Update by Sean Summers: My contribution in the first sprint was introducing some feature ideas and then writing a script called rename.py which is in our master branch. The script allows the user to rename a large amount of files in order to sort them better. It will also later be used as a part of another feature to rename/parse them so duplicates can be deleted.
+
+*Update by Mason Currie: My contribution in the second sprint was the automated website login feature. The feature prompts the user for a url link, and their login credentials. It then opens a chrome browser, navigates to link, and proceeds to "sign in" to the users account. My next step is to integrate this feature into our excel GUI, and fix any bugs that may occur.
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
