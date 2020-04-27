@@ -1,0 +1,31 @@
+import pyautogui
+import time
+
+
+time.sleep(3)
+
+#print("...Open the calculator application...")
+pyautogui.moveTo(8, 900, duration = 0.5)
+time.sleep(0.6)
+pyautogui.click(8, 900)
+time.sleep(0.5)
+pyautogui.press('c')
+pyautogui.press('a')
+pyautogui.press('l')
+pyautogui.press('c')
+time.sleep(0.4)
+pyautogui.press('enter')
+time.sleep(2)
+a, b = pyautogui.locateCenterOnScreen('calc2key.png')
+pyautogui.click(a, b)
+time.sleep(0.2)
+c, d = pyautogui.locateCenterOnScreen('calcpluskey.png')
+pyautogui.click(c, d)
+time.sleep(0.2)
+e, f = pyautogui.locateCenterOnScreen('calc2key.png')
+g, h = pyautogui.locateCenterOnScreen('calc4key.png')
+pyautogui.click(e, f)
+time.sleep(0.1)
+pyautogui.click(g, h)
+time.sleep(0.2)
+pyautogui.press('enter')
