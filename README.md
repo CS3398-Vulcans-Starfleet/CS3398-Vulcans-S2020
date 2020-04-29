@@ -26,6 +26,8 @@ file:///.file/id=6571367.125785890
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
+deleteAllFiles will need the send2trash module installed - which can be installed with pip install Send2Trash
+renamePython is setup to rename files with the naming format "x - x - #1.ext"
 need excel, pycharm for code editing./ local environment needs pyautogui and may need pip to install pyautogui on certain machines. demo version is accessible though the example.xlsm
 
 ## Code Examples
